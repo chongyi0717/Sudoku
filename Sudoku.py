@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[81]:
-
 
 #在下面输入数独题目，需要填数字的地方用0表示
 a = [[0, 0, 0, 0, 9, 8, 0, 0, 1],
@@ -131,10 +129,3 @@ while done() != True:
                 
 for i in range(9):
     print(a[i])
-
-
-# In[79]:
-
-
-done()
-
