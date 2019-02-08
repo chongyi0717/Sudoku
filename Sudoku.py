@@ -126,6 +126,7 @@ while done() != True:
                 a[loc_in_x][loc_in_y] = j
                 steps += 1
                 print("第{0}步：在({1}, {2})位置填入数字{3}".format(steps, loc_in_x + 1, loc_in_y + 1, j))
-                
+  
+print("最终数独结果如下")
 for i in range(9):
     print(a[i])
